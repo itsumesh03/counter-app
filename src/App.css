@@ -36,3 +36,77 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.main-heading {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #2d3748;
+}
+
+.components-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.counter-box {
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px #c1c1c1, -5px -5px 15px #ffffff;
+  padding: 20px;
+  width: 250px;
+}
+
+.counter-box h2 {
+  color: #4a5568;
+  margin-bottom: 15px;
+}
+
+.counter-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.counter-controls button {
+  background: #4cafef;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.counter-controls button:hover {
+  background: #3182ce;
+}
+
+.counter-controls span {
+  font-size: 20px;
+  font-weight: bold;
+  min-width: 30px;
+  display: inline-block;
+}
